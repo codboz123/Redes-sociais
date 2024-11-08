@@ -5,8 +5,8 @@ async function visualizarInformacoesGlobais() {
     const pessoasConectadas = (dados.total_pesoas_conectadas / 1e9)
     const pessoasNoMundo = (dados.total_pessoas_mundo / 1e9)
     const horas = parseInt(dados.tempo_medio)
-    const porcentagemConectada = ((pessoasConectaas / pessoasNoMundo) * 100).toFixed(2);
-    console.log(dados);
+    const porcentagemConectada = ((pessoasConectadas / pessoasNoMundo) * 100).toFixed(2);
+    //console.log(dados);
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container_texto')
     paragrafo.innerHTML = `Você sabia que o mundo /
