@@ -1,6 +1,6 @@
 const url='https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
 
-visualizarInformacoesGlobais()
+
 
 
 async function visualizarInformacoesGlobais() {
