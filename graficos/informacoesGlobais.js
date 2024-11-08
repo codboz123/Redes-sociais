@@ -1,5 +1,5 @@
 const url='https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
-async function visualizarInformaçõesGlobais() {
+async function visualizarInformacoesGlobais() {
     const res = await fetch(url);
     const dados = await res.json();
     console.log(dados);
@@ -18,4 +18,4 @@ async function visualizarInformaçõesGlobais() {
      const container = document.getElementById('graficos-container')
      container.appendChild(paragrafo)
 }
-visualizarInformaçõesGlobais()
+visualizarInformacoesGlobais()
