@@ -11,6 +11,8 @@ body{
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     font-family: var(--font);
+    height: 100vh;
+    margin: 0;
 }
 header{
     background-color: var(--cor-secundaria);
